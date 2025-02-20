@@ -1,6 +1,6 @@
 # How to Run the project
 
-- git clone repo url
+- git clone (enter this repo url)
 - cd data_labeling_project
 - pip install -r requirements.txt
 - python manage.py makemigrations
