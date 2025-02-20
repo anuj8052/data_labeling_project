@@ -27,20 +27,15 @@ The 2D data labeling tool will allow users to easily manually edit labels for se
 
 **APP Results**
 
-- Image -1
-![App Screenshot](images/Screenshot 2025-02-20 at 8.56.16 PM.png)
+- Result -1
+![App Screenshot](images/Screenshot_2025-02-20_8-56-16_PM.png)
+- Result -2
+![App Screenshot](images/Screenshot_2025-02-20_8-56-30_PM.png)
+- Result -3
+![App Screenshot](images/Screenshot_2025-02-20_8-56-45_PM.png)
+- Result -4
+![App Screenshot](images/Screenshot_2025-02-20_8-56-52_PM.png)
 
-- Image -2
-
-![App Screenshot](images/Screenshot 2025-02-20 at 8.56.30 PM.png)
-
-- Image -3
-
-![App Screenshot](images/Screenshot 2025-02-20 at 8.56.45 PM.png)
-
-- Image -4
-
-![App Screenshot](images/Screenshot 2025-02-20 at 8.56.52 PM.png)
 
 
 
