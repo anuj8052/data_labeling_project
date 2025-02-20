@@ -1,3 +1,13 @@
+# How to Run the project
+
+- git clone <repository-url>
+- cd data_labeling_project
+- pip install -r requirements.txt
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py runserver
+
+
 # data_labeling_project
 This project outlines the requirements for a 2D data labeling tool that will allow users to upload a csv file with 2D data and manually edit labels for selected data points using a GUI. The final output can be exported as a csv file.
 
