@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Labeling</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Data Labeling</h1>
+    <div id="plot"></div>
+    <script>
+        var graph = {{ graph_json | safe }};
+        Plotly.newPlot('plot', graph.data, graph.layout);
+    </script>
+    <form method="post" action="{% url 'cluster_data' filename %}">
+        {% csrf_token %}
+        <select name="algorithm">
+            <option value="KMeans">KMeans</option>
+            <option value="DBSCAN">DBSCAN</option>
+        </select>
+        <input type="submit" value="Cluster">
+    </form>
+    <form method="post" action="{% url 'label_data' filename %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update Label</button>
+    </form>
+    <a href="{% url 'export_data' filename %}">Download Labeled Data</a>
+</body>
+</html>
